@@ -1,13 +1,19 @@
 <?php
-function nizBrojeva($brojevi)
+
+function obracunavanjePopusta($cena, $popust)
 {
-    foreach($brojevi as $broj)
-    if($broj > 10)
-    {
-        echo $broj. "<br>";
-    }
+    $ukupniPopust = ($popust / 100) * $cena;
+    return $ukupniPopust;
 }
-nizBrojeva([11,2,3,16,77,44,2,88]);
+
+$pomnozeniBrojevi = obracunavanjePopusta(1500, 10);
+echo $pomnozeniBrojevi;
+
+
+
+
+
+
 
 
 
