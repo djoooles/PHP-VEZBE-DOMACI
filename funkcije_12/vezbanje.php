@@ -6,8 +6,8 @@ function obracunavanjePopusta($cena, $popust)
     return $ukupniPopust;
 }
 
-$pomnozeniBrojevi = obracunavanjePopusta(1500, 10);
-echo $pomnozeniBrojevi;
+$obracunatiPopust = obracunavanjePopusta(1500, 10);
+echo $obracunatiPopust;
 
 
 
